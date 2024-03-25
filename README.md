@@ -44,7 +44,7 @@ Navigate to the project directory in your terminal or command prompt.
 Run the main.py file using Python:
 
 ```bash
-python main.py
+python satellite_simulator.py
 ```
 The Satellite Motion Simulator window will appear, allowing you to input PID parameters and start the simulation.
 
