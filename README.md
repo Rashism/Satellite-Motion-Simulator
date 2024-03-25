@@ -24,7 +24,7 @@ Before running the Satellite Motion Simulator, ensure you have Python installed 
 
 # Dependencies
 Install the required Python packages using pip:
-' pip install numpy '
+" pip install numpy 
 ''' pip install matplotlib
 ''' pip install PyQt5
 
