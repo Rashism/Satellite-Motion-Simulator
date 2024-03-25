@@ -110,4 +110,6 @@ This project is licensed under the [MIT License](https://github.com/Rashism/Sate
 - matplotlib
 - PID-controller
 - engineering
+- software-development
+- data-visualization
 
