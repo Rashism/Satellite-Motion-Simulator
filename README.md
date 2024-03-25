@@ -17,7 +17,39 @@ Students: Studying control theory, dynamics, or aerospace engineering.
 Engineers: Working on projects involving control systems or satellite technology.
 Developers: Interested in learning about PID control implementation and visualization.
 
-How to Use
+How to Use:
+
+Installation
+Before running the Satellite Motion Simulator, ensure you have Python installed on your system. You can download Python from here.
+
+Dependencies
+Install the required Python packages using pip:
+pip install numpy
+pip install matplotlib
+pip install PyQt5
+
+Usage
+1.Clone or download the repository to your local machine.
+2.Navigate to the project directory in your terminal or command prompt.
+3.Run the main.py file using Python:
+python main.py
+The Satellite Motion Simulator window will appear, allowing you to input PID parameters and start the simulation.
+
+Example
+# Define PID parameters
+Kp = 1.0
+Ki = 0.5
+Kd = 0.2
+
+# Setpoint and simulation time
+setpoint = 100.0
+sim_time = 20.0
+
+# Run simulation
+time, position, velocity = simulate_satellite_motion(Kp, Ki, Kd, setpoint, sim_time)
+
+
+
 Installation: Ensure Python is installed on your system.
 Dependencies: Install required Python packages (numpy, matplotlib, PyQt5) using pip.
 Clone Repository: Download or clone the project repository to your local machine.
