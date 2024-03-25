@@ -24,9 +24,9 @@ Before running the Satellite Motion Simulator, ensure you have Python installed 
 
 # Dependencies
 Install the required Python packages using pip:
-. pip install numpy
-. pip install matplotlib
-. pip install PyQt5
+''' pip install numpy
+''' pip install matplotlib
+''' pip install PyQt5
 
 # Usage
 1.Clone or download the repository to your local machine.
@@ -37,13 +37,13 @@ The Satellite Motion Simulator window will appear, allowing you to input PID par
 
 # Example
 # Define PID parameters
-Kp = 1.0
-Ki = 0.5
-Kd = 0.2
+''' Kp = 1.0
+''' Ki = 0.5
+''' Kd = 0.2
 
 # Setpoint and simulation time
-setpoint = 100.0
-sim_time = 20.0
+''' setpoint = 100.0
+''' sim_time = 20.0
 
 
 # Run simulation
