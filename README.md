@@ -100,3 +100,12 @@ Integration with external data sources or APIs for real-world satellite data.
 
 # License
 This project is licensed under the [MIT License](https://github.com/Rashism/Satellite-Motion-Simulator-?tab=MIT-1-ov-file#)
+
+## Tags
+- python
+- simulation
+- GUI
+- matplotlib
+- PID-controller
+- engineering
+
