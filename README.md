@@ -109,6 +109,7 @@ This project is licensed under the [MIT License](https://github.com/Rashism/Sate
 - GUI
 - matplotlib
 - PID-controller
+- satellite
 - engineering
 - software-development
 - data-visualization
