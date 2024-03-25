@@ -77,6 +77,19 @@ The Satellite Motion Simulator utilizes a PID (Proportional-Integral-Derivative)
 
 4. By combining these three terms, the PID controller continuously computes a control signal that minimizes the error and drives the satellite towards the desired setpoint while maintaining stability and responsiveness.
 
+Run the `satellite_simulator.py` file to launch the graphical interface. Then, specify the PID controller parameters (`Kp`, `Ki`, and `Kd`), set point, and simulation time using the input fields provided. Click the "Start Simulation" button to initiate the simulation.
+
+### Available Parameters
+
+| Parameter      | Description                                      |
+|----------------|--------------------------------------------------|
+| Kp             | Proportional gain of the PID controller. It determines how aggressively the controller responds to the current error. Increasing Kp will make the controller react more strongly to changes in error. |
+| Ki             | Integral gain of the PID controller. It controls the accumulated past error. Higher Ki values will cause the controller to eliminate the residual error more quickly, but can also lead to overshooting or instability. |
+| Kd             | Derivative gain of the PID controller. It predicts future error trends based on the current rate of change of error. Increasing Kd can improve stability and decrease overshoot, but too high values can lead to oscillations or instability. |
+| Set Point      | The desired position or velocity for the satellite. This is the target value that the controller will try to achieve through its control actions. |
+| Simulation Time| Duration of the simulation in seconds. Specifies how long the simulation will run to observe the behavior of the satellite system under the given PID parameters. |
+
+
 
 
 ## Future Enhancements
