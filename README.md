@@ -13,9 +13,9 @@ The Satellite Motion Simulator is a Python-based application designed to simulat
 The Satellite Motion Simulator serves as an educational tool for students, engineers, and software developers interested in learning about control systems, specifically PID controllers, and their applications in satellite motion control. By providing a user-friendly interface and real-time visualization, the simulator facilitates hands-on exploration and experimentation with PID parameters and their effects on system behavior.
 
 # Target Audience
-.Students: Studying control theory, dynamics, or aerospace engineering.
-.Engineers: Working on projects involving control systems or satellite technology.
-.Developers: Interested in learning about PID control implementation and visualization.
+. Students: Studying control theory, dynamics, or aerospace engineering.
+. Engineers: Working on projects involving control systems or satellite technology.
+. Developers: Interested in learning about PID control implementation and visualization.
 
 # How to Use:
 
@@ -24,7 +24,7 @@ Before running the Satellite Motion Simulator, ensure you have Python installed 
 
 # Dependencies
 Install the required Python packages using pip:
-'''pip install numpy 
+'pip install numpy 
 ''' pip install matplotlib
 ''' pip install PyQt5
 
