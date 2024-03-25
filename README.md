@@ -65,9 +65,18 @@ setpoint = 100.0
 sim_time = 20.0
 ```
 
-## Run simulation
+## Control Algorithm (PID)
 
-time, position, velocity = simulate_satellite_motion(Kp, Ki, Kd, setpoint, sim_time)
+The Satellite Motion Simulator utilizes a PID (Proportional-Integral-Derivative) controller algorithm to control the motion of the simulated satellite. Here's a brief overview of how the PID controller works:
+
+1. Proportional (P) Term: The proportional term adjusts the control signal proportionally to the current error, which is the difference between the desired setpoint and the current position of the satellite.
+
+2. Integral (I) Term: The integral term accounts for the accumulated error over time. It integrates the error signal over time, helping to eliminate any steady-state error.
+
+3. Derivative (D) Term: The derivative term predicts the future trend of the error based on its current rate of change. It helps dampen the oscillations and improve the system's stability.
+
+4. By combining these three terms, the PID controller continuously computes a control signal that minimizes the error and drives the satellite towards the desired setpoint while maintaining stability and responsiveness.
+
 
 
 ## Future Enhancements
