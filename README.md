@@ -42,22 +42,28 @@ pip install PyQt5
 Clone or download the repository to your local machine.
 Navigate to the project directory in your terminal or command prompt.
 Run the main.py file using Python:
+
+```bash
 python main.py
+```
 The Satellite Motion Simulator window will appear, allowing you to input PID parameters and start the simulation.
 
 # Example
 
 ## Define PID parameters
 
+```bash
 Kp = 1.0
 Ki = 0.5
 Kd = 0.2
+```
 
 ## Setpoint and simulation time
 
+```bash
 setpoint = 100.0
 sim_time = 20.0
-
+```
 
 ## Run simulation
 
